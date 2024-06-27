@@ -159,9 +159,12 @@ a:hover {
 }
 
 .arrow:hover {
-	-webkit-animation-play-state: paused;
-	opacity: 60%;
-	transform: scale(1.25) rotate(45deg);
+    -webkit-animation-play-state: paused; /* Safari and Chrome */
+    -moz-animation-play-state: paused; /* Firefox */
+    -o-animation-play-state: paused; /* Opera */
+    animation-play-state: paused; /* Standard property */
+    opacity: 60%;
+    transform: scale(1.25) rotate(45deg);
 }
 
 
@@ -436,26 +439,3 @@ ul {
 	color: #8d8d8d;
 	font-size:14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
