@@ -1,1 +1,0 @@
-Hi, this is my personal website! Check it out!
