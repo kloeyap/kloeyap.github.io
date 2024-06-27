@@ -1,1 +1,1 @@
-Welcome to my personal website!
+Hi, this is my personal website! Check it out!
